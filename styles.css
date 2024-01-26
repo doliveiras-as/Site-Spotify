@@ -96,11 +96,11 @@ body{
     background-color: #242424;
     justify-content: space-between;
     gap: 20px;
-    color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
+    border-radius: 10px;
     }
 
 .section-playlist .section-playlist-content {
@@ -115,11 +115,13 @@ body{
 
 .section-playlist-content .title {
     font-weight: 700;
+    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist-content .subtitle {
     font-weight: 500;
     font-size: 12px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist-content .section-playlist-button {
@@ -153,7 +155,7 @@ body{
 .library .cookies a:hover{
     text-decoration: underline;
 }
-/*Define caracteristicas da área de cookies na sidebar esquerda*/
+/*Define caracteristicas da área de linguagem na sidebar esquerda*/
 .library .languages .languages-button {
     background-color: transparent;
     border: 1px solid #878787;
@@ -163,4 +165,6 @@ body{
     width: 170px;
     margin: 8px;
     padding: 8px;
+    border-radius: 20px;
 }
+
