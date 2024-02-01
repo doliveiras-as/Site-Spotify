@@ -1,6 +1,7 @@
 /*Cor de fundo da página*/
 body{
     background-color: rgb(0, 0, 0);
+    font-family: var(--font-dm-sans); /*variável salva no arquivo vars.css para facilitar a organização*/
 }
 /*Define as caracteristicas da sidebar esquerda*/
 .sidebar {
@@ -167,4 +168,5 @@ body{
     padding: 8px;
     border-radius: 20px;
 }
+
 
